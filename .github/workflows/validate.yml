@@ -5,7 +5,6 @@ name: Validate lab
 # so there's nothing to install.
 
 on:
-  pull_request:
   workflow_dispatch:
 
 permissions:

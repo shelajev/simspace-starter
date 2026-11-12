@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   deploy:
-    uses: dockersamples/simspace/.github/workflows/deploy-lab.yml@main
+    uses: dockersamples/simspace/.github/workflows/deploy-lab.yml@8d40bf1ca652dd93ae15d29649b1dcaaeb002a46 # main
     with:
       lab-dir: lab
       # Pin to a released version for stable labs, e.g. "1". "latest" tracks the
